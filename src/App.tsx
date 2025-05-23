@@ -14,13 +14,15 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-soft-gray-50">
       <Navbar />
-      <Hero />
-      <Calculator />
-      <Requirements />
-      <About />
-      <ChatBot />
+      <main className="overflow-hidden">
+        <Hero />
+        <Calculator />
+        <Requirements />
+        <About />
+        <ChatBot />
+      </main>
       <Footer />
     </div>
   );
