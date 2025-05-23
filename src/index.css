@@ -9,7 +9,7 @@
   }
   
   body {
-    @apply bg-white text-soft-gray-900 antialiased;
+    @apply bg-white text-gray-900 antialiased;
   }
 }
 
@@ -23,7 +23,7 @@
   }
   
   .input-focus {
-    @apply focus:outline-none focus:ring-2 focus:ring-soft-blue-500/20 focus:border-soft-blue-500/40;
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/40;
   }
 }
 

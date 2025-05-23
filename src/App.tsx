@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-soft-gray-50">
+    <div className="min-h-screen bg-white">
       <Navbar />
       <main className="overflow-hidden">
         <Hero />
