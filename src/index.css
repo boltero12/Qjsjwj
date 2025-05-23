@@ -9,7 +9,7 @@
   }
   
   body {
-    @apply bg-soft-gray-50 text-soft-gray-900 antialiased;
+    @apply bg-white text-soft-gray-900 antialiased;
   }
 }
 
