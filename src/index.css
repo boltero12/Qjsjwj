@@ -6,24 +6,38 @@
   html {
     -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
+    font-size: 15px;
   }
   
   body {
     @apply bg-white text-gray-900 antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
   }
 }
 
 @layer components {
   .glass-effect {
-    @apply bg-white/70 backdrop-blur-md border border-white/20;
+    @apply bg-white/60 backdrop-blur-md border border-white/10;
   }
   
   .soft-shadow {
-    @apply shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+    @apply shadow-[0_4px_20px_rgb(0,0,0,0.03)];
   }
   
   .input-focus {
-    @apply focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/40;
+    @apply focus:outline-none focus:ring-1 focus:ring-blue-500/20 focus:border-blue-500/40;
+  }
+
+  .minimal-button {
+    @apply px-4.5 py-2 text-sm font-medium transition-all duration-200;
+  }
+
+  .minimal-card {
+    @apply rounded-lg glass-effect soft-shadow p-5;
   }
 }
 
